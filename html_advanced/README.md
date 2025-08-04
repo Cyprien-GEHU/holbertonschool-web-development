@@ -1,5 +1,7 @@
 # SmileSchool – Website Structure 
 
+![logo](src/image.png)
+
 This project is a complete structure of html with the exemple on firma : the **SmileSchool** 
 
 ## 🏗️ Website Structure
