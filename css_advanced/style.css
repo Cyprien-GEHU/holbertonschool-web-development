@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "source sans pro", sans-serif ;
+}
+/* Global and class part*/
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    color: #ffffff;
+    background-color: #C271ff;
+    height: 44px;
+    width: 162px;
+    border-radius: 22px;
+    font-size: 14px;
+    border-style: none;
+    box-shadow: 0px 0px 10px #071629;
+}
+
+.bold_world {
+    font-weight: bold;
+    color: #C271ff;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+
+/*Body*/
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/*Header part*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 168px;
+    width: 1103PX;
+    position: absolute;
+    z-index: 1000;
+}
+
+#navigation {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    font-weight: 400;
+    width: 234px;
+}
+
+/* Banner part */
+#banner {
+    color: #ffffff;
+    background-image: url(src/background.png);
+    padding-top: 220px;
+    width: 100%;
+    height: 870px;
+    text-align: center;
+    position: relative;
+}
+
+
+#title_banner {
+    font-size:120px;
+}
+
+#three_world{
+    font-weight: 500;
+    padding-bottom: 38px;
+    word-spacing: 60px;
+    font-size: 16px;
+}
+
+#banner_h2 {
+    font-size: 32px;
+    padding-top: 168px;
+    padding-bottom: 87px ;
+    font-weight: lighter;
+}
+
+#smile_pro {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0px 217px;
+    
+}
+
+#smile_pro div {
+    width: 150px;
+}
+
+#smile_pro div p {
+    font-style: italic;
+    font-size: 16px;
+    font-weight: 300;
+    word-spacing: 1px;
+}
+
+#quote {
+    background-color: #C271ff;
+    color: #ffffff;
+    height: 392px;
+    font-size: 22px;
+    width: 1440px;
+}
+
+#block_quote {
+    display: flex;
+    padding: 120px 259px;
+}
+
+#author_quote {
+    width: 730px;
+    height: 158px;
+    padding-left: 50px;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+#author_name {
+    font-weight: bold;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    font-size: 22px;
+}
+
+#status_author {
+    font-style: italic;
+    font-weight: 300;
+}
+
+/* videos part*/
+#videos {
+    height: 524px;
+    padding-top: 100px;
+    width: 100%;
+}
+
+#videos h1{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 75px;
+    font-weight: 100;
+}
+
+#block_videos {
+    display: flex;
+    justify-content: center;
+}
+
+.picture_tuto{
+    width: 255px;
+    height: 154px;
+}
+
+.block_tuto{
+    width: 235px;
+    padding: 0px 28px;
+}
+
+.block_tuto h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 18px 0 0px 5px;
+}
+
+.tuto_description{
+    font-size: 14px;
+    font-weight: 300;
+    padding: 5px 0 8px 5px;
+    line-height: 24px;
+    color: #071629;
+    opacity: 50%;
+}
+
+.avatar_tuto {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+/* the rating author of the tuto */
+.block_author {
+    color: #C271ff;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.block_author h3 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 13px;
+}
+
+/* The rating of tuto*/
+.block_rating {
+    display: flex;
+    color: #C271ff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block_rating img {
+    padding-right: 8px;
+}
+
+.block_rating p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #C271ff;
+    opacity: 100%;
+}
+
+/* membership part */
+#membership {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #071629 ;
+    width: 1440px;
+    color: #ffffff;
+    height: 502px;
+}
+
+.logo_smile{
+    width: 44px;
+    height: 35px;
+}
+
+#membership h1{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+#membership div {
+    display: flex;
+    padding-top: 43px;
+    padding-bottom: 45px;
+}
+
+#membership div div{
+    display: flex;
+    width: 257px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#membership div div h2 {
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 27px;
+    padding-bottom: 13px;
+}
+
+#membership div div p {
+    font-size: 14px;
+    font-weight: 200;
+    width: 177px;
+}
+
+/* FAQ part */
+#FAQ {
+    display: flex;
+    flex-direction: column;
+    padding-top: 67px;
+    width: 100%;
+}
+
+#FAQ h1{
+    font-size: 60px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+#FAQ div div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#FAQ div div div{
+    display: flex;
+    flex-direction: column;
+    width: 242px;
+}
+
+.question {
+    font-size: 16px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.answer {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+    width: 350px;
+    line-height: 24px;
+    padding-bottom: 70px;
+}
+
+footer {
+    background-color: #071629 ;
+    width: 1210px;
+    height: 144px;
+    padding: 95px 125px 0px 125px;
+}
+
+#logo2 {
+    width: 169px;
+    height: 30px;
+}
+
+footer div div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div div img {
+    padding-right: 20px;
+}
+
+footer div p {
+    color: #ffffff;
+    font-size: 12px;
+    opacity: 35%;
+    text-align: center;
+    padding-top: 70px;
+}
